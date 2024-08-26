@@ -1,0 +1,146 @@
+@charset "utf-8";
+/*CSS document*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(img/fondo.png); /*quiero poner una imagen de fondo pero nose como*/
+    font-family: "Montserrat Alternates", sans-serif;
+    font-style: normal;
+}
+
+h1{
+    font-weight: 900;
+    text-align: center;
+    font-size: 49.84px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 34.89px;
+    margin-top: 9%;
+    margin-bottom: 1%;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 19.94px;
+}
+
+ul{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+li{
+    font-weight: 700;
+    font-size: 19.94px;
+    line-height: 35.97px;
+}
+
+div{
+    text-align: center;
+    margin-top: 7%;
+}
+
+img{
+    border-radius: 50%;
+    border: 20px solid #580404
+}
+
+.sec{
+    background-color: #580404;
+    color: #ffffff;
+    width: 80%;
+    height: 80%;
+    box-sizing: border-box;
+    padding: 10px 72px 72px 72px;
+    margin-left: 10%;
+    margin-top: 0%;
+    border-top-width: 100px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-top-color: #580404;
+    border-top-style: solid;
+}
+
+.sub{
+    font-weight: 300;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 105.5px;
+}
+
+.exper{
+    background-color: #E3E3E3;
+    width: 80%;
+    height: 80%;
+    box-sizing: border-box;
+    padding: 0px 72px 72px 72px;
+    color: #580404;
+    margin-left: 10%;
+}
+
+.exper h2{
+    background-color: #E3E3E3;
+    padding: 40px 0px 40px 0px;
+    margin-top: 0%;
+}
+
+.exper h3{
+    font-weight: 600;
+    font-size: 27.41px;
+    margin-bottom: 10pt;
+}
+
+.exper p{
+    font-weight: 500;
+    margin-bottom: 30pt;
+}
+
+.cont{
+    background-color: #580404;
+    color: #ffffff;
+    width: 80%;
+    height: 80%;
+    box-sizing: border-box;
+    padding: 10px 72px 72px 72px;
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+.cont p{
+    font-weight: 600;
+    font-size: 17.44px;
+    text-align: left;
+    padding: 12pt 0pt 0pt 15pt;
+}
+
+.cont h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #580404;
+    color: #ffffff;
+    padding: 2%;
+    margin-top: 10%;
+}
+
+.footer ul{
+    text-align: center;
+}
+
+.footer li{
+    display: inline;
+    box-sizing: border-box;
+    padding: 0% 10% 0% 10%;
+}
