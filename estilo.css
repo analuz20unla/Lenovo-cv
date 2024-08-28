@@ -11,17 +11,20 @@ body{
     font-style: normal;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h1{
     font-weight: 900;
-    text-align: center;
     font-size: 49.84px;
 }
 
 h2{
     font-weight: 700;
     font-size: 34.89px;
-    margin-top: 9%;
-    margin-bottom: 1%;
 }
 
 h3{
@@ -32,6 +35,7 @@ h3{
 p{
     font-weight: 400;
     font-size: 19.94px;
+    text-wrap: pretty;
 }
 
 ul{
@@ -45,14 +49,17 @@ li{
     line-height: 35.97px;
 }
 
-div{
-    text-align: center;
+.flex-img{
+    display: flex;
+    justify-content: center;
     margin-top: 7%;
 }
 
 img{
     border-radius: 50%;
-    border: 20px solid #580404
+    border: 20px solid #580404;
+    margin-bottom: -140px;
+    position: relative;
 }
 
 .sec{
@@ -61,9 +68,7 @@ img{
     width: 80%;
     height: 80%;
     box-sizing: border-box;
-    padding: 10px 72px 72px 72px;
-    margin-left: 10%;
-    margin-top: 0%;
+    padding: 50px 72px 72px 72px;
     border-top-width: 100px;
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
@@ -71,12 +76,23 @@ img{
     border-top-style: solid;
 }
 
+.tit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .sub{
     font-weight: 300;
     text-align: center;
-    margin-top: auto;
-    margin-bottom: 105.5px;
 }
+
+.flex-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 
 .exper{
     background-color: #E3E3E3;
@@ -85,7 +101,6 @@ img{
     box-sizing: border-box;
     padding: 0px 72px 72px 72px;
     color: #580404;
-    margin-left: 10%;
 }
 
 .exper h2{
@@ -100,6 +115,11 @@ img{
     margin-bottom: 10pt;
 }
 
+.light{
+    font-size: 19.94px;
+    font-weight: 500;
+}
+
 .exper p{
     font-weight: 500;
     margin-bottom: 30pt;
@@ -112,8 +132,6 @@ img{
     height: 80%;
     box-sizing: border-box;
     padding: 10px 72px 72px 72px;
-    margin-left: 10%;
-    margin-top: 0%;
 }
 
 .cont p{
@@ -135,12 +153,13 @@ img{
     margin-top: 10%;
 }
 
-.footer ul{
-    text-align: center;
-}
-
 .footer li{
     display: inline;
     box-sizing: border-box;
-    padding: 0% 10% 0% 10%;
+}
+
+.flex-foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
