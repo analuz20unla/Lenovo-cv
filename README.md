@@ -6,10 +6,8 @@ También el link a como se ve la web (porque soy medio salame y no recuerdo si u
 
 ## Aclaraciones
 
-Van a darse cuenta que al comparar el boceto con el index hay un efecto de "solapa" que busco hacer en los títulos que no estoy logrando. 
-Me limité a darle una vista más tradicional porque no se avanzar lo que tenía en mente. 
+Sigo sin poder hacer el efecto "solapa" que diseñe en figm.
+
+No me queda claro cómo aplicar la propiedad "gap" de flexbox con distintos valores para superior e inferior.
 
 La imágenes todavía no las dimensioné correctamente.
-
-Me gustaría saber si los estilos inline que apliqueé están bien o si hay una forma de que vayan en la hoja de estilos.
-Muchas gracias por la paciencia y perdón por la tardanza :)
