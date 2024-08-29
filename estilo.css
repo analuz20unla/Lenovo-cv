@@ -9,6 +9,9 @@ body{
     background-image: url(img/fondo.png); /*quiero poner una imagen de fondo pero nose como*/
     font-family: "Montserrat Alternates", sans-serif;
     font-style: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
 
 main{
@@ -53,7 +56,7 @@ li{
 .flex-img{
     display: flex;
     justify-content: center;
-    margin-top: 7%;
+    margin-top: 70pt;
 }
 
 img{
@@ -67,7 +70,8 @@ img{
     background-color: #580404;
     color: #ffffff;
     width: 80%;
-    height: 80%;
+    max-width: 900px;
+    height: 750px;
     box-sizing: border-box;
     padding: 50px 72px 72px;
     border-top-width: 100px;
@@ -101,7 +105,8 @@ img{
 .exper{
     background-color: #E3E3E3;
     width: 80%;
-    height: 80%;
+    max-width: 900px;
+    height: 740px;
     box-sizing: border-box;
     padding: 55px 72px 72px;
     color: #580404;
@@ -126,7 +131,7 @@ img{
 
 .exper h2{
     background-color: #E3E3E3;
-    margin-top: 0%;
+    margin-top: 0px;
 }
 
 .exper h3{
@@ -142,14 +147,14 @@ img{
 
 .exper p{
     font-weight: 500;
-    /*margin-bottom: 30pt;*/
 }
 
 .cont{
     background-color: #580404;
     color: #ffffff;
     width: 80%;
-    height: 80%;
+    max-width: 900px;
+    height: 320px;
     box-sizing: border-box;
     padding: 55px 72px 72px 72px;
 }
@@ -170,7 +175,6 @@ img{
     background-color: #580404;
     color: #ffffff;
     padding: 2%;
-    margin-top: 10%;
 }
 
 .footer li{
@@ -185,5 +189,3 @@ img{
     flex-direction: row;
     justify-content: space-between;
 }
-
-/*aplicaciones flex*/
