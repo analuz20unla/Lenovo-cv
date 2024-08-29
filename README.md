@@ -10,3 +10,5 @@ Mi pantalla es de 1366 x 768
 La imágenes todavía no las dimensioné correctamente.
 
 ¿Debería achicar el tamaño de los títulos?
+
+No se como trabajar las dimensiones y ppp de la imágen de fondo porque se redimensiona según el tamaño de la pantalla.
