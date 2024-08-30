@@ -33,7 +33,7 @@ h2{
 h3{
     font-weight: 600;
     font-size: 15px;
-    margin-bottom: 12pt;
+    margin-bottom: 16px;
 }
 
 p{
@@ -56,7 +56,7 @@ li{
 .flex-img{
     display: flex;
     justify-content: center;
-    margin-top: 70pt;
+    margin-top: 93.3px;
 }
 
 img{
@@ -137,7 +137,7 @@ img{
 .exper h3{
     font-weight: 600;
     font-size: 27.41px;
-    margin-bottom: 10pt;
+    margin-bottom: 13.3px;
 }
 
 .light{
@@ -156,14 +156,14 @@ img{
     max-width: 900px;
     height: 320px;
     box-sizing: border-box;
-    padding: 55px 72px 72px 72px;
+    padding: 40px 72px 72px 72px;
 }
 
 .cont p{
     font-weight: 600;
     font-size: 17.44px;
     text-align: left;
-    padding: 12pt 0pt 0pt 15pt;
+    padding: 16px 0px 0px 20px;
 }
 
 .cont h2{
@@ -181,7 +181,7 @@ img{
     display: inline;
     box-sizing: border-box;
     padding-left: 50px;
-    padding-right: 50pt;
+    padding-right: 66.6px;
 }
 
 .flex-foot{
