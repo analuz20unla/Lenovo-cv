@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(img/fondo.png); /*quiero poner una imagen de fondo pero nose como*/
+    background-image: url(img/fondo.png);
     font-family: "Montserrat Alternates", sans-serif;
     font-style: normal;
     display: flex;
