@@ -22,12 +22,12 @@ main{
 
 h1{
     font-weight: 900;
-    font-size: 49.84px;
+    font-size: 50px;
 }
 
 h2{
     font-weight: 700;
-    font-size: 34.89px;
+    font-size: 35px;
 }
 
 h3{
@@ -38,7 +38,7 @@ h3{
 
 p{
     font-weight: 400;
-    font-size: 19.94px;
+    font-size: 20px;
     text-wrap: pretty;
 }
 
@@ -49,14 +49,14 @@ ul{
 
 li{
     font-weight: 700;
-    font-size: 19.94px;
-    line-height: 35.97px;
+    font-size: 20px;
+    line-height: 36px;
 }
 
 .flex-img{
     display: flex;
     justify-content: center;
-    margin-top: 93.3px;
+    margin-top: 93px;
 }
 
 img{
@@ -106,7 +106,6 @@ img{
     background-color: #E3E3E3;
     width: 80%;
     max-width: 900px;
-    height: 740px;
     box-sizing: border-box;
     padding: 55px 72px 72px;
     color: #580404;
@@ -115,18 +114,17 @@ img{
     gap: 40px;
 }
 
-.flex-exper{
+.flex-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: space-between
 }
 
-.exper-interlinea{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
+article{
+    width: 46%;
+    height: 260px;
 }
 
 .exper h2{
@@ -136,12 +134,12 @@ img{
 
 .exper h3{
     font-weight: 600;
-    font-size: 27.41px;
-    margin-bottom: 13.3px;
+    font-size: 27px;
+    margin-bottom: 13px;
 }
 
 .light{
-    font-size: 19.94px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -161,7 +159,7 @@ img{
 
 .cont p{
     font-weight: 600;
-    font-size: 17.44px;
+    font-size: 17px;
     text-align: left;
     padding: 16px 0px 0px 20px;
 }
@@ -181,7 +179,7 @@ img{
     display: inline;
     box-sizing: border-box;
     padding-left: 50px;
-    padding-right: 66.6px;
+    padding-right: 66px;
 }
 
 .flex-foot{
