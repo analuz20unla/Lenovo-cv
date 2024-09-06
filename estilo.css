@@ -11,7 +11,6 @@ body{
     font-style: normal;
     display: flex;
     flex-direction: column;
-    gap: 100px;
 }
 
 main{
@@ -28,6 +27,7 @@ h1{
 h2{
     font-weight: 700;
     font-size: 35px;
+    padding-bottom: 8px;
 }
 
 h3{
@@ -71,14 +71,9 @@ img{
     color: #ffffff;
     width: 80%;
     max-width: 900px;
-    height: 750px;
     box-sizing: border-box;
-    padding: 50px 72px 72px;
-    border-top-width: 100px;
-    border-top-left-radius: 30%;
-    border-top-right-radius: 30%;
-    border-top-color: #580404;
-    border-top-style: solid;
+    padding: 153px 72px 49px 72px;
+    border-radius: 259px 259px 0px 0px;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -116,14 +111,14 @@ img{
 
 .flex-container{
     display: flex;
-    align-items: flex-start;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between
+    justify-content: space-between;
+    gap: 48px;
 }
 
 article{
     width: 46%;
-    height: 260px;
 }
 
 .exper h2{
@@ -154,6 +149,7 @@ article{
     height: 320px;
     box-sizing: border-box;
     padding: 40px 72px 72px 72px;
+    margin-bottom: 100px;
 }
 
 .cont p{
